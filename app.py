@@ -29,4 +29,4 @@ h1{{color:#58a6ff}}.badge{{background:#238636;color:#fff;padding:3px 8px;border-
 
 @app.get("/health")
 def health():
-    return {{"status": "ok"}}
+    return {"status": "ok"}
